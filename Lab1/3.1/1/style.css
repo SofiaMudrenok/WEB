@@ -1,0 +1,102 @@
+header {
+  font-family: "Josefin Sans", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(226, 224, 220);
+  padding: 20px;
+  height: 38px;
+  width: 44%;
+
+  position: relative;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.searchm input {
+  width: 300px;
+  height: 38px;
+  padding-left: 10px;
+  border: 0 solid #000000;
+  border-radius: 3px;
+  outline: none;
+  background: #ffffff;
+  margin: 0 0 0 20px;
+}
+
+.searchm button {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  border: 0 solid rgb(61, 61, 61);
+  cursor: pointer;
+  background-color: rgb(226, 224, 220);
+}
+.meny {
+  padding: 20px;
+  background-color: #cccac8;
+  height: 38px;
+  position: absolute;
+  width: 50%;
+  top: 8px;
+  right: 8px;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  width: 0px;
+  height: 0px;
+}
+
+.head {
+  color: rgb(61, 61, 61);
+  font-weight: bold;
+  width: 100px;
+  height: 42px;
+  border-radius: 3px;
+  background: #cccac8;
+  transition: 0.2s;
+  margin: 0 8px 0 0;
+  font-family: "Josefin Sans", sans-serif;
+  border: 2px solid #cccac8;
+}
+
+.head1:hover {
+  border: 2px solid rgb(61, 61, 61);
+}
+
+main {
+  font-family: "Josefin Sans", sans-serif;
+  display: grid;
+}
+.main1 {
+  background-color: #b9b8b6;
+  padding: 20px;
+  width: 50%;
+}
+.main2 {
+  padding: 20px;
+  background-color: white;
+  position: absolute;
+  top: 86px;
+  right: 8px;
+  width: 552px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: bisque;
+  padding: 20px 20px 12px 20px;
+  position: absolute;
+  top: 380px;
+  right: 8px;
+  width: 552px;
+}
+
+a {
+  text-decoration: none;
+}
